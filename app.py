@@ -19,4 +19,5 @@ def services():
 def contact():
     return render_template('contact.html')
 
-#test commment
+if __name__ == '__main__':
+    app.run(debug=True)
